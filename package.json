@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-google-maps-module",
+  "version": "1.0.0",
+  "description": "nuxt-gmaps",
+  "author": "Nuxt.js Team",
+  "private": true,
+  "scripts": {
+    "dev": "MINIMAL=1 CSB=1 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@nuxt/http": "^0.1.0",
+    "dotenv": "8.0.0",
+    "nuxt": "^2.5.1",
+    "nuxt-cookie-control": "1.5.9",
+    "nuxt-gmaps": "1.0.2",
+    "reqlim": "^0.0.0"
+  },
+  "keywords": []
+}
